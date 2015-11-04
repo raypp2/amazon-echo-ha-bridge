@@ -12,8 +12,9 @@ There are currently three different ways to run the pre-built jar file:
 
 **Maven -** ```mvn spring-boot:run```
 
-**Docker -** ```docker build -t amazon-echo-ha-bridge .
-docker run -ti --rm --net=host amazon-echo-ha-bridge```
+**Docker -** ```docker build -t amazon-echo-ha-bridge .```
+
+```docker run -ti --rm --net=host amazon-echo-ha-bridge```
 
  Additionally, it's also recommended you pass the command line arguments ```--upnp.config.address``` and ```--server.port``` to override the hardcoded values currently implemented.
 
